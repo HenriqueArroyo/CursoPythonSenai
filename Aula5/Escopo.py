@@ -18,7 +18,7 @@ def exemplo_escopo():
     print(variavel_local)
 
 exemplo_escopo()  # Saída: 10
-print(variavel_local)  # Erro: variavel_local não está definida fora da função
+# print(variavel_local)  # Erro: variavel_local não está definida fora da função
 
 
 
