@@ -1,0 +1,81 @@
+funcionarios:
+  - id: 1
+    nome: Ana
+    idade: 25
+    salario: 3500
+  - id: 2
+    nome: João
+    idade: 30
+    salario: 4000
+  - id: 3
+    nome: Maria
+    idade: 28
+    salario: 3200
+  - id: 4
+    nome: Pedro
+    idade: 35
+    salario: 4500
+  - id: 5
+    nome: Sofia
+    idade: 27
+    salario: 3800
+  - id: 6
+    nome: Carlos
+    idade: 33
+    salario: 4200
+  - id: 7
+    nome: Laura
+    idade: 29
+    salario: 3600
+  - id: 8
+    nome: André
+    idade: 31
+    salario: 4100
+  - id: 9
+    nome: Juliana
+    idade: 26
+    salario: 3700
+  - id: 10
+    nome: Rafael
+    idade: 34
+    salario: 4300
+  - id: 11
+    nome: Mariana
+    idade: 32
+    salario: 3900
+  - id: 12
+    nome: Guilherme
+    idade: 30
+    salario: 4050
+  - id: 13
+    nome: Carolina
+    idade: 28
+    salario: 3600
+  - id: 14
+    nome: Lucas
+    idade: 27
+    salario: 3750
+  - id: 15
+    nome: Beatriz
+    idade: 29
+    salario: 3850
+  - id: 16
+    nome: Thiago
+    idade: 26
+    salario: 3950
+  - id: 17
+    nome: Camila
+    idade: 31
+    salario: 4100
+  - id: 18
+    nome: Mateus
+    idade: 28
+    salario: 3700
+  - id: 19
+    nome: Larissa
+    idade: 33
+    salario: 4250
+  - id: 20
+    nome: Gabriel
+    idade: 29
+    salario: 3800
