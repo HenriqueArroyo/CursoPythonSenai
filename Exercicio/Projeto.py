@@ -1,20 +1,18 @@
 import pandas as pd
-import numpy as np
 import yaml
 import matplotlib.pyplot as plt
 
-
-# Carregar os dados dos funcionários a partir do arquivo YAML
+# Carregar os dados do arquivo YAML
 with open('Exercicio/empresa.yaml', 'r') as file:
     dados_yaml = yaml.safe_load(file)
 
+# Converter dados de vendas para DataFrame
+df_vendas = pd.DataFrame(dados_yaml['vendas'])
 
-# Converter para DataFrame
-df = pd.DataFrame(dados_yaml['vendas'])
+df_cliente = pd.DataFrame(dados_yaml['clientes'])
 
-# 1. Análise Exploratória
-print("1. Análise Exploratória:")
-# print(df.head())  # Visualizar as primeiras linhas
-# print(df.info())  # Informações sobre os tipos de dados e valores nulos
-# print(df.describe())  # Estatísticas descritivas básicas
+# Visualizar as primeiras linhas do DataFrame de vendas
+print("Primeiras linhas do DataFrame de vendas:")
+print(df_vendas.head())
+print(df_cliente.head())
 
