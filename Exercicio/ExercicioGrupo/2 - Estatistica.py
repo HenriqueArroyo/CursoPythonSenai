@@ -11,8 +11,11 @@ df_vendas = pd.DataFrame(dados['vendas'])   # criando dataframe das vendas
 df_clientes = pd.DataFrame(dados['comportamento_do_cliente']) # criando dataframe dos clientes
 df_produto = pd.DataFrame(dados['desempenho_do_produto']) # criando dataframe dos produtos
 
+print('\n   \nDescrição Vendas:')
 print(df_vendas.describe()), '\n' # Gerando estatísticas descritivas para a tabela de vendas
+print('\n   \nDescrição Clientes:')
 print(df_clientes.describe()), '\n'  # Gerando estatísticas descritivas para a tabela de clientes
+print('\n   \nDescrição Produtos:')
 print(df_produto.describe()), '\n'  # Gerando estatísticas descritivas para a tabela de produtos
 
 
